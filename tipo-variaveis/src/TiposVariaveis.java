@@ -1,9 +1,9 @@
 /**
  * <h1>TiposVariaveis</h1>
- * Criada durante o curso java-basico (DIO) para
+ * Classe criada durante o curso sintaxe java DIO para
  * demonstrar na prática os tipos de variáveis. 
  * <p>
- * <b>Note:</b> Os comentários adicionados para melhor fixar os resultados 
+ * <b>Note:</b> Comentários adicionados para melhor fixar os resultados 
  * e padrões de nomenclatura. Alguns exercícios podem conter alterações propositais
  * Sinta-se a vontade para praticar de acordo com suas expectativas e criatividade
  * 
@@ -17,15 +17,15 @@ public class TiposVariaveis {
         System.out.println("Hello, World!");
         
         /**
-         * Rgras para declarar variáveis com valor imutável 
+         * Regras para declarar variáveis com valor imutável 
          * Uso da palavra reservada "final" 
          */                                 
-       final String BR = "Brasil"; // Aqui há declaração de variável com valor imutável
-        //BR = "Brazil"; 
+       final String BR = "Brasil"; // Aqui há uma declaração de variável com valor imutável
+        BR = "Brazil"; 
         System.out.println(BR);   
                 /**
                 * ERRO! Proposital (Comentar linha 24 para executar o restante do código)
-                * pois variável (final) não pode ter seu valor alterado
+                * pois variável "final" não pode ter seu valor alterado
                 */
        double PI = 3.14;         // Variável do tipo primitivo double (recebe valores fracionados)
        System.out.println(PI);
@@ -66,7 +66,7 @@ public class TiposVariaveis {
         double altura = 1.67;
         System.out.println(altura);
 
-        int longo = 1;  // Esta declaração está correta mas não podedmos usar 
+        int longo = 1;  // Esta declaração está correta. Mas ATENÇÂO! Não podedmos usar 
                         // palavras reservadas
         System.out.println(longo);
     }

@@ -1,6 +1,6 @@
 /**
  * <h1>UsoOperadores</h1>
- * A classe UsoOperadores, criada durante o curso java-basico (DIO)
+ * A classe UsoOperadores, criada durante o curso sintaxe java DIO
  * demonstra na prática o uso de operadores. 
  * <p>
  * <b>Note:</b> Os comentários adicionei para melhor fixar os resultados 
@@ -13,10 +13,7 @@
  */
 
 public class UsoOperadores {
-    /**
-     * @param args
-     */
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         String nomeCompleto = "LINGUAGEM " + "JAVA";
         System.out.println(nomeCompleto);
        
@@ -27,7 +24,7 @@ public class UsoOperadores {
        *  concatenação de duas string ("LINGUAGEM" e "JAVA").
        * 
        * <p>
-       * <h3>A seguir alguns exmplos deste tipo de operadore</h3>
+       * <h3>A seguir alguns exemplos deste tipo de operadore</h3>
        */
 
        double soma = 10.5 + 15.7;
